@@ -21,7 +21,7 @@ module.exports = (function() {
       clusterManager: process.env.CLUSTER_MANAGER? process.env.CLUSTER_MANAGER: 'localhost:5700',
       portListened: process.argv[2]? process.argv[2]:5800,
       awsTimeout: process.env.AWS_TIMEOUT ? parseInt(process.env.AWS_TIMEOUT, 10) : 120,
-      s3Bucket: process.env.S3_BUCKET? process.env.S3_BUCKET: 'mobileye-code',
+      s3Bucket: process.env.S3_BUCKET? process.env.S3_BUCKET: 'code',
       skipKill: process.env.SKIP_KILLING_ZOMBIES? process.env.SKIP_KILLING_ZOMBIES: false,
    };
 
