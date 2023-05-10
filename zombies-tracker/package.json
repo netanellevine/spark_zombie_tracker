@@ -1,0 +1,19 @@
+{
+  "name": "zombies-tracker",
+  "version": "1.0.0",
+  "description": "search for zombies (apps that run for too long) and log/kill them",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Netanel Levine",
+  "dependencies": {
+    "async": "3.2.4",
+    "aws-sdk": "^2.1077.0",
+    "console-stamp": "^0.2.10",
+    "pg": "8.7.1",
+    "pg-promise": "10.11.1",
+    "request": "2.88.2",
+    "axios": "^0.21.1",
+    "underscore": "1.13.6"
+  }
+}
