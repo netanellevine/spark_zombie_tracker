@@ -6,9 +6,9 @@ module.exports = (function() {
 
    const dbConfig = {
       host: process.env.postgres?process.env.postgres:'localhost',
-      user: 'remuser',
-      password: '123456',
-      database: 'REMDB',
+      user: '',
+      password: '',
+      database: '',
       port: process.env.postgres_port?process.env.postgres_port:5432,
       statement_timeout: process.env.PG_TIMEOUT_MS?parseInt(process.env.PG_TIMEOUT_MS, 10): 1500000
    };
